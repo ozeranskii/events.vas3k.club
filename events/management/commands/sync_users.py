@@ -22,6 +22,7 @@ class Command(BaseCommand):
         )
         parser.add_argument(
             "--event-id",
+            required=False,
             default=None,
             help="If set, create one ticket for each synced user for this event id",
         )
