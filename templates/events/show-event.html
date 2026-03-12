@@ -198,7 +198,7 @@
 
             {% if participants %}
                 <div class="block event-participants">
-                    <div class="block-header">❤️ Участники ({{ participants|length }})</div>
+                    <div class="block-header">❤️ Участники</div>
                     {% if request.user.is_authenticated %}
                         <div class="event-participants-list">
                             {% for user in participants %}
